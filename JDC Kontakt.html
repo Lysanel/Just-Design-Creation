@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang='de'>
+
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src='Menüleiste funktion.js'></script>
+	<link rel='stylesheet' href='font-awesome-4.7.0/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='JDC Layout änderungen.css'>
+	<title> Just Design Creation Kontakt</title>
+	<link rel='icon' type='image/x-icon' href='Bilder/Logo/Just Design Logo.svg'>
+</head>
+
+<body>
+	
+	<div class='abstand_unten'>
+		<img src='Bilder/Banner/2024 Banner Shop.jpg' class='banner'>
+		
+		<div class='topnav' id='myTopnav'>
+			<a href='JDC Start.html'>Start</a>
+			<a href='JDC Produkte.html'>Produkte</a>
+			<a href='JDC Galerie.html'>Galerie</a>
+			<a href='JDC Termine.html'>Termine</a>
+			<a href='JDC Kontakt.html' class='active'>Kontakt</a>
+			<a href='javascript:void(0);' class='icon' onclick='topnavbar()'>
+				<i class='fa fa-bars' aria-hidden='true'></i>
+			</a>
+		</div>
+		
+		<!-- alles unter der oberen Menüleiste-->
+		
+		<h1>Kontaktformular</h1>
+		
+		<div class='Kontakt'>
+			<form action='Sendeadresse' id='Kontakt-form' method='post' accept-charset='utf-8'>
+				<fieldset>
+				<div class='label'>
+					<label>
+						Name *<br>
+						<input type='text' name='Name' required>
+					</label>
+				</div>
+				<div class='label'>
+				<label>
+					E-Mail-Adresse *<br>
+					<input type='email' name='E-Mail' required>
+				</label>
+				</div>
+				<div class='label'>
+				<label>
+					Ihre Nachricht *<br>
+					<textarea rows='3' name='Nachricht' required></textarea>
+				</label>
+				</div>
+				</fieldset>
+				<section>
+				<div>
+					<label>
+						<input type='checkbox' name='Datenverarbeitung bestätigt' value='Ja' required>
+						<span> Ich bin mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung durch Just Design Creation einverstanden.</span>
+					</label>
+				</div>
+				</section>
+			<div class='btns'>
+				<input type='text' name='_gotcha' value='' style='display:none;'>
+				<input type='submit' value='Absenden'>
+			</div>
+			</form>
+		</div>
+	</div>
+	<!-- alles oberhalb der unteren Menüleiste -->
+	
+	<div class='bottomnav'>
+		<a href='JDC Impressum.html'>Impressum</a>
+		<a href='JDC Datenschutz.html'>Datenschutz</a>
+	</div>
+</body>
+</html>
