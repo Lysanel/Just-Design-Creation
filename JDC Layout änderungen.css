@@ -86,10 +86,8 @@ a {
 }
 .logo {
 	width:100%;
-	max-width:250px;
-	min-width:100px;
 	height: auto;
-	margin:25px;
+	margin:5px;
 }
 
 .topnav {
